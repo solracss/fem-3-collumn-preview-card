@@ -1,3 +1,19 @@
 @use "./colors" as *;
 @use "./reset" as *;
 @use "./typography" as *;
+
+body {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: $ff-base;
+	color: $white;
+	background-color: $light-gray;
+}
+
+.container {
+	max-width: 327px;
+	color: $transparent-white;
+}
+
