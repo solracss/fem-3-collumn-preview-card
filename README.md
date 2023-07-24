@@ -26,8 +26,8 @@ Your users should be able to:
 
 <summary>Click to open</summary>
 
-![Desktop]()
-![Mobile]()
+![Desktop](https://i.imgur.com/bbOQiTo.png)
+![Mobile](https://i.imgur.com/goMg5ib.png)
 
 </details>
 
@@ -45,5 +45,3 @@ Your users should be able to:
 	<img width="30" src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png" alt="Sass" title="Sass"/>
 	<img width="30" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/>
 </div>
-
-### What I learned
