@@ -6,8 +6,10 @@ body {
 	display: grid;
 	align-content: center;
 	justify-content: center;
+	padding: 24px;
 	min-height: 100vh;
 	font-family: $ff-base;
+	font-size: rem(15px);
 	color: $white;
 	background-color: $light-gray;
 }
@@ -15,5 +17,49 @@ body {
 .container {
 	max-width: 327px;
 	color: $transparent-white;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
+.card {
+	padding: 48px;
+	.car-type {
+		margin-top: 35px;
+		font-family: $ff-headings;
+		font-size: rem(40px);
+		color: $white;
+		text-transform: uppercase;
+	}
+
+	.car-description {
+		max-width: 26ch;
+		margin-top: 25px;
+		font-weight: $fw-normal;
+		line-height: rem(25px);
+	}
+
+	.btn {
+		margin-top: 25px;
+	}
+}
+
+.sedans {
+	background-color: $orange;
+}
+
+.suvs {
+	background-color: $cyan;
+}
+
+.luxury {
+	background-color: $dark-cyan;
+}
+
+.btn {
+	padding: 12px 32px;
+	border-radius: 25px;
+	font-size: rem(15px);
+	line-height: rem(25px);
+	background-color: $light-gray;
+	mix-blend-mode: screen;
+}

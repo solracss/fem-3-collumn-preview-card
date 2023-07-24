@@ -56,4 +56,64 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 24px;
+    min-height: 100vh;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.9375rem;
+    color: #fff;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 327px;
+    color: rgba(255, 255, 255, 0.749);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 48px;
+}
+.card .car-type {
+    margin-top: 35px;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.card .car-description {
+    max-width: 26ch;
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 1.5625rem;
+}
+.card .btn {
+    margin-top: 25px;
+}
+
+.sedans {
+    background-color: #e28625;
+}
+
+.suvs {
+    background-color: #006971;
+}
+
+.luxury {
+    background-color: #004140;
+}
+
+.btn {
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    background-color: #f2f2f2;
+    mix-blend-mode: screen;
 }/*# sourceMappingURL=main.css.map */
